@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout>
+
+    <mails_adminhtml_index_index>
+        <reference name="content">
+        	<block type="mails/adminhtml_mails" name="grid"/>
+    	</reference>
+    </mails_adminhtml_index_index>
+
+    <mails_adminhtml_index_grid>
+        <reference name="root">
+        	<block type="mails/adminhtml_mails_grid" name="root" output="toHtml"/>
+    	</reference>
+    </mails_adminhtml_index_grid>
+</layout>
